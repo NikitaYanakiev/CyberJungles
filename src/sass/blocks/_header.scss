@@ -1,0 +1,37 @@
+.header {
+    padding: 11px 0;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    // .header__menu
+    &__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    // .header__list
+    &__list {
+        display: flex;
+    }
+    // .header__item
+    &__item {
+        &:not(:last-child) {
+            margin-right: 36px;
+        }
+    }
+    // .header__link
+    &__link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 26px;
+        color: #FFFFFF;
+        transition: all 0.3s ease;
+        &:hover {
+            color: $main-color;
+        }
+    }
+}
+
+

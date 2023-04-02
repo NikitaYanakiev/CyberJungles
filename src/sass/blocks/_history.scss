@@ -1,0 +1,49 @@
+.history {
+    padding-bottom: 200px;
+    overflow: hidden;
+    // .history__title
+    &__title {
+        margin-bottom: 160px;
+    }
+    // .history__row
+    &__row {
+        &:not(:last-child) {
+            margin-bottom: 21px;
+        }
+    }
+    // .history__img
+    &__img {
+        max-width: 820px;
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+    // .history__content
+    &__item {
+        position: relative;
+    }
+    // .history__text
+    &__text {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 90%;
+        margin: 0 auto;
+
+        font-family: 'Lexend Giga';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        @media (min-width:1400px) {
+            font-size: 20px;
+            line-height: 25px;
+        }
+    }
+}

@@ -1,0 +1,341 @@
+@media (max-width: 1200px) {
+    .banner {
+        &__subtitle {
+            font-size: 45px;
+            line-height: 80px;
+        }
+        &__title {
+            font-size: 130px;
+            line-height: 130px;
+        }
+    }
+    .characters {
+        padding-bottom: 150px;
+        &__title {
+            margin-bottom: 80px;
+        }
+    }
+    .history {
+        padding-bottom: 150px;
+        &__title {
+            margin-bottom: 80px;
+        }
+    }
+    .cards {
+        padding-bottom: 50px;
+        &__title {
+            margin-bottom: 80px;
+        }
+    }
+}
+@media (max-width: 992px) {
+    .title {
+        font-size: 64px;
+        line-height: 70px;
+        &_name {
+            font-size: 40px;
+            line-height: 44px;
+        }
+    }
+    .banner {
+        background: url('../../img/bg_banner.jpg') no-repeat center/cover;
+        &__subtitle {
+            font-size: 40px;
+            line-height: 50px;
+        }
+        &__title {
+            font-size: 96px;
+            line-height: 100px;
+        }
+    }
+    .backstory {
+        padding: 80px 0;
+        &__body {
+            max-width: 600px;
+        }
+        &__gun {
+            display: none;
+        }
+        &__stone-small {
+            top: 22px;
+            left: 90%;
+            
+        }
+        &__stone-big {
+            max-width: 68px;
+            right: 90%;
+            top: 90%;
+        }
+        &__text {
+            font-size: 20px;
+            line-height: 25px;
+        }
+    }
+    .characters {
+        padding-bottom: 150px;
+        &__row {
+            row-gap: 40px;
+        }
+        &__text {
+            font-size: 20px;
+            line-height: 25px;
+        }
+    }
+    .cards {
+        &__row {
+            &:not(:last-child) {
+                margin-bottom: 50px;
+            }
+        }
+    }
+    .download {
+        padding: 120px 0;
+        &__title {
+            font-size: 42px;
+            line-height: 50px;
+        }
+        &__btn {
+            max-width: 355px;
+            margin: 70px auto 0 auto;
+            button {
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+        &__img {
+            max-width: 35%;
+        }
+    }
+    .footer {
+        &__subtitle {
+            font-size: 13px;
+            line-height: 16px;
+        }
+        &__title {
+            font-size: 20px;
+            line-height: 22px;
+        }
+        &__content {
+            order: 1;
+        }
+        &__text {
+            text-align: left;
+        }
+        &__reserved {
+            order: 3;
+            text-align: left;
+            margin-top: 20px;
+            span {
+                font-size: 10px;
+                line-height: 12px;
+            }
+        }
+        &__social {
+            order: 2;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .header {
+        min-height: 45px;
+        position: relative;
+        background-color: $bg-color;
+        &__item {
+            &:not(:last-child) {
+                margin-right: 22px;
+            }
+        }
+        &__link {
+            font-size: 20px;
+            line-height: 22px;
+        }
+    }
+    .banner {
+        
+        min-height: calc(100vh - 45px);
+        &__subtitle {
+            font-size: 28px;
+            line-height: 34px;
+            margin-bottom: 28px;
+        }
+        &__title {
+            font-size: 70px;
+            line-height: 76px;
+        }
+        &__img {
+            width: 450px;
+        }
+    }
+    .cards {
+        &__name {
+            font-size: 18px;
+            line-height: 20px;
+            left: 12%;
+        }
+    }
+    .download {
+        padding: 80px 0;
+        &__title {
+            font-size: 30px;
+            line-height: 38px;
+        }
+        &__btn {
+            margin: 50px auto 0 auto;
+            button {
+                font-size: 16px;
+                line-height: 20px;
+                padding: 20px 20%;
+            }
+        }
+       
+    }
+
+}
+@media (max-width: 576px) {
+    .title {
+        font-size: 48px;
+        line-height: 53px;
+        &_name {
+            font-size: 32px;
+            line-height: 35px;
+        }
+    }
+    .header {
+        min-height: 40px;
+        &__item {
+            &:not(:last-child) {
+                margin-right: 15px;
+            }
+        }
+        &__link {
+            font-size: 12px;
+            line-height: 16px;
+        }
+    }
+    .banner {
+        min-height: calc(100vh - 40px);
+        &__subtitle {
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 15px;
+        }
+        &__title {
+            font-size: 40px;
+            line-height: 50px;
+        }
+        &__img {
+            width: 80%;
+        }
+    }
+    .backstory {
+        padding: 60px 0;
+        &__text {
+            font-size: 15px;
+            line-height: 19px;
+        }
+    }
+    .characters {
+        padding-bottom: 100px;
+        &__name {
+            margin-top: 20px;
+        }
+        &__text {
+            font-size: 16px;
+            line-height: 20px;
+            max-width: 377px;
+            margin: 20px auto 0 auto;
+        }
+        &__title {
+            margin-bottom: 30px;
+        }
+    }
+    .history {
+        padding-bottom: 100px;
+        &__title {
+            margin-bottom: 30px;
+        }
+        &__img{
+            width: 110%;
+            margin-left: -5%;
+            &_text {
+                display: none;
+            }
+        }
+        &__text {
+            position: relative;
+            left: 0;
+            top: 0;
+            transform: translate(0);
+            margin-bottom: 20px;
+            font-size: 16px;
+            line-height: 20px;
+        }
+        
+    }
+    .cards {
+        padding-bottom: 20px;
+        &__title {
+            margin-bottom: 30px;
+        }
+        
+        &__row {
+            row-gap: 20px;
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
+        }
+        &__name {
+            font-size: 16px;
+            line-height: 18px;
+            left: 12%;
+        }
+    }
+    .download {
+        padding: 60px 0;
+        &__title {
+            max-width: 280px;
+            font-size: 28px;
+            line-height: 34px;
+        }
+        &__btn {
+            max-width: 200px;
+            margin: 50px auto 0 auto;
+            button {
+                min-height: 59px;
+                font-size: 16px;
+                line-height: 18px;
+                padding: 10px 10%;
+            }
+        }
+        &__img {
+            max-width: 40%;
+        }
+    }
+    .footer { 
+        &__subtitle {
+            font-size: 12px;
+            line-height: 15px;
+        }
+        &__title {
+            font-size: 16px;
+            line-height: 18px;
+        }
+        &__text {
+            font-size: 10px;
+            line-height: 12px;
+        }
+        &__item {
+            svg {
+                width: 21px;
+                height: 21px;
+            }
+        }
+    }
+    .pageup {
+        right: 5%;
+        svg {
+            width: 38px;
+            height: 38px;
+        }
+    }
+}
